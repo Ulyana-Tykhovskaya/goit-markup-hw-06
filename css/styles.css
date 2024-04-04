@@ -144,6 +144,19 @@ padding: 17px 0;
     cursor: pointer;
     border: none;
 }
+ @media screen and (min-width: 1158px) {
+    .logo {
+        margin-right: 76px;
+    }
+    .address-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .address-link {
+font-size: 16px;
+line-height: 1.5;
+    }
+ }
 /* ========main======= */
 .hero {
 background-color: #2e2f42;
