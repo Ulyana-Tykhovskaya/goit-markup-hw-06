@@ -68,12 +68,12 @@ padding: 17px 0;
 }
 
 .nav-list {
-    display: none;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
     .open-menu-btn {
-        display: block;
+        display: none;
     }
     .logo {
         margin-right: 120px;
@@ -117,7 +117,7 @@ padding: 17px 0;
         .address {
             font-style: normal;
             margin-left: auto;
-            display: none;
+            display: block;
         }
         .address-list {
             display: flex;
