@@ -24,10 +24,26 @@ padding: 0;
 margin: 0;
 }
 .container {
-   width: 320px;
-    padding: 0 16px;
-    margin: 0 auto;
-}
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
 @media screen and (min-wdth: 768px) {
     .container {
         max-width: 768px;
@@ -800,7 +816,7 @@ fill: #f4f4fd;
     width: 768px;
     /* padding-left: 16px;
     padding-right: 16px; */
-}
+
 
 .strategy-item {
     width: calc((100%- 24px) / 2);
@@ -808,4 +824,5 @@ fill: #f4f4fd;
 }
 .strategy-list {
     gap: 72px 24px;
+}
 }
