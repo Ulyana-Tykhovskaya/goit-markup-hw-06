@@ -277,7 +277,7 @@ color: #434455;
 
 
 .strategy-item {
-    width: calc((100%- 24px) / 2);
+    width: calc((100% - 24px) / 2);
     padding-right: 0;
 }
 .strategy-list {
