@@ -184,9 +184,17 @@ background-position: center;
 background-size: cover;
 margin:0 auto;
 }
-.hero-wrap {
-
+@media screen and (min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)), 
+            url(../images/Dark-bgmobaile2x-min.jpg); 
+    }
 }
+
+
 .hero-title {
     /* margin-bottom: 48px; */
     margin-bottom: 72px;
@@ -291,8 +299,17 @@ color: #434455;
     rgba(46, 47, 66, 0.7)), 
     url(../images/Dark-bgtab.jpg);
 }
+@media screen and (min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)), 
+            url(../images/Dark-bgtab2x-min.jpg); 
+    }
+    }
 .strategy-item {
-   width: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
     padding-right: 0;
 }
 .strategy-list {
@@ -306,6 +323,7 @@ color: #434455;
 .team-list {
     flex-wrap: wrap;
     display: flex;
+    gap: 72px;
     justify-content: center;
  gap: 64px 24px;
  margin: 0 auto;
@@ -335,7 +353,12 @@ color: #434455;
     .team {
         padding: 120px 0;
     } 
-    
+    .icon-strategy {
+        
+    }
+    .strategy-item {
+        width: calc((100% - 72px)/4);
+    }
 }
 @media screen and (min-width:320px) {
     .icon-strategy {
@@ -375,9 +398,7 @@ color: #2e2f42;
 text-transform: capitalize
 }
 .team-list {
-    flex-wrap: wrap;
-    display: flex;
-    gap: 72px;
+    
 }
 .team-subtitle {
 font-weight: 500;
@@ -438,6 +459,7 @@ margin-top: 8px;
     background-color: #404bbf;
 }
 .portfolio {
+    
     padding-top: 120px;
     padding-bottom: 120px;
     background: #fff;
