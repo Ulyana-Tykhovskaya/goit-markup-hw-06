@@ -283,17 +283,19 @@ color: #434455;
 }
 
 .team {
-    margin-top: 96px;
+    
     margin-bottom: 96px;
 }
 .team-list {
     flex-wrap: wrap;
     display: flex;
- width: 64px 24px;
  justify-content: center;
+ width: 552px;
+ gap: 24px;
+ margin: 0 auto;
 }
 .team-title {
-    margin-top: 96px;
+    
 }
 .hero-title {
     margin-bottom: 36px;
