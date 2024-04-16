@@ -186,8 +186,6 @@ body {
     fill: #fff;
   }
   
-  .header-menu-wrap {
-  }
   
   .header-menu-list {
     display: flex;
@@ -196,8 +194,6 @@ body {
     margin-bottom: 40px;
   }
   
-  .header-menu-item {
-  }
   .header-menu-link {
     font-weight: 700;
     font-size: 36px;
