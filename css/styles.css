@@ -251,7 +251,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg/hero-bg-mob.jpg);
+      url(../images/Dark-mabaile.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     padding: 72px 0;
@@ -268,7 +268,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-bg/hero-bg-mob-2x.jpg);
+        url(../images/Dark-bgmobaile2x-min.jpg)
     }
   }
   
@@ -503,12 +503,6 @@ body {
   .footer-logo {
     display: inline-block;
     margin: 0 auto;
-  }
-  
-  .footer-span {
-  }
-  
-  .footer-paragraph {
   }
   
   .social-subtitle,
@@ -992,7 +986,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-bg/hero-bg-tab.jpg);
+        url(../images/Dark-bgtab.jpg);
       padding: 112px 0;
     }
   
@@ -1004,7 +998,7 @@ body {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
           ),
-          url(../images//hero-bg/hero-bg-tab-2x.jpg);
+          url(../images/Dark-bgtab2x-min.jpg);
       }
     }
   
@@ -1143,7 +1137,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-bg/hero-back.jpg);
+        url(../images/Dark-bgdac1x-min.jpg);
       padding: 188px 0;
       max-width: 1440px;
     }
@@ -1156,7 +1150,7 @@ body {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
           ),
-          url(../images/hero-bg/hero-back-2x.jpg);
+          url(../images/Dark-bgdac2x-min.jpg);
       }
     }
   
