@@ -433,6 +433,7 @@ body {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .portfolio-list-item:hover box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
   
   .portfolio-list-item:hover .portfolio-wrapper-text {
@@ -1040,7 +1041,7 @@ body {
     }
   
     .portfolio-list-item {
-     
+        flex-basis: calc((100% - 24px) / 2);
     }
   
     .modal {
@@ -1191,7 +1192,7 @@ body {
     }
   
     .portfolio-list-item {
-      
+        flex-basis: calc((100% - 48px) / 3);
     }
   
     .footer {
