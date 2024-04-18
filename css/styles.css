@@ -484,6 +484,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-items: center;
   }
   
   .footer-social {
@@ -1074,6 +1075,7 @@ body {
   
     .footer-container {
       width: 264px;
+      align-items: flex-start;
     }
   
     .footer-subscribe {
